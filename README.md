@@ -59,7 +59,7 @@ If you get NvvmSupportError: libNVVM cannot be found:
 - Navigate to the CUDA installation folder (usually C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\X.X).
 
 - Make sure the bin subdirectory is in the system environment variables.
-If the error persists, reinstall cudatoolkit or use a specific version:
+If   the error persists, reinstall cudatoolkit or use a specific version:
 
 ```bash
 conda install -c conda-forge cudatoolkit=11.2
